@@ -1,0 +1,26 @@
+{
+  "llm_preset": "mimo-v2.5-pro",
+  "llm_model": "mimo-v2.5-pro",
+  "llm_base_url": "https://api.xiaomimimo.com/v1",
+  "llm_temperature": 0.7,
+  "llm_max_tokens": 128000,
+  "llm_max_context": 1000000,
+  "llm_provider": "openai_compatible",
+  "thinking_modes": {
+    "mimo-v2.5-pro": "disabled"
+  },
+  "model_settings": {
+    "deepseek-v4-flash": {
+      "temperature": 0.7,
+      "max_tokens": 128000,
+      "max_context": 1000000,
+      "thinking": "default"
+    },
+    "mimo-v2.5-pro": {
+      "temperature": 0.7,
+      "max_tokens": 128000,
+      "max_context": 1000000,
+      "thinking": "disabled"
+    }
+  }
+}
