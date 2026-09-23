@@ -25,7 +25,7 @@ GRID_ROWS = 3            # 网格行数上限
 # ===== 应用版本 =====
 VERSION_REG_PATH = "Software\\ShuZhiQiaoShi"
 VERSION_REG_KEY  = "Appversion"
-VERSION_FALLBACK = "V0.3.9"
+VERSION_FALLBACK = "V0.3.10"
 
 def get_app_version():
     """从注册表读取 Appversion，自动补 'V' 前缀；缺失时回退默认值"""
