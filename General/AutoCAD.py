@@ -14,6 +14,7 @@ from General.Geometry import midpoint, is_point_inside_polygon, check_polyline_i
 
 print('test: 2nd message for git test')
 print('test: 3rd message for git test')
+print('test: hotfix message for branch:hotfix')
 
 def _com_retry(func, *args, retries=3, delay=0.1, **kwargs):
     """
