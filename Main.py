@@ -78,6 +78,7 @@ def run(resource_dir=None):
         '钢板桩/锁扣钢管桩矩形围堰批量结果': CofferDam_Cal_Report_Main_Batch,  # Excel 批量结果
     }
     print('test: one message for git test')
+    print('test: 2nd message for git test')
 
     # 使用 ttkbootstrap UI（功能为页面、结构为入口）
     app = FloatingBallApp_ttk(
