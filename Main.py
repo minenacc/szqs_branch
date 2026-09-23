@@ -80,6 +80,7 @@ def run(resource_dir=None):
     print('test: one message for git test')
     print('test: 2nd message for git test')
     print('test: 3rd message for git test')
+    print('test: hotfix message for branch:hotfix')
 
     # 使用 ttkbootstrap UI（功能为页面、结构为入口）
     app = FloatingBallApp_ttk(
